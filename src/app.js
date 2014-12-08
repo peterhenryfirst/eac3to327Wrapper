@@ -5,7 +5,7 @@
 
 var path = require("path"),
 	spawn = require('child_process').spawn,
-	exePath = path.dirname(__dirname),
+	exePath = path.dirname('E:\brdrip\eac3to327'),
 	pathBRD = 'E:\brdrip\Archer2\ARCHER_SEASON_2_DISC_1';
 
 var eac3toExe = spawn(exePath + '/eac3to', [], {
