@@ -3,7 +3,8 @@
  * Module dependencies.
  */
 
-var spawn = require('child_process').spawn,
+var path = require("path"),
+	spawn = require('child_process').spawn,
 	exePath = path.dirname(__dirname),
 	pathBRD = 'E:\brdrip\Archer2\ARCHER_SEASON_2_DISC_1';
 
