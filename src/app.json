@@ -1,0 +1,35 @@
+{
+	"exePath": "E:/brdrip/eac3to327/eac3to",
+	"outPath": "E:/brdrip/Archer2/",
+	"tasksFileName": "tasks.json",
+	"args": [
+		"E:/brdrip/Archer2/ARCHER_SEASON_2_DISC_1"
+	],
+	"args1": [
+		"E:/brdrip/Archer2/ARCHER_SEASON_2_DISC_1",
+		"4)"
+	],
+	"trackElements": {
+		"Chapters": {
+			"outExtension": ".txt",
+			"outSufixName": ".chapters"
+		},
+		"h264/AVC": {
+			"outExtension": ".h264",
+			"outSufixName": ".video",
+			"infoPos": 1
+		},
+		"DTS Master Audio": {
+			"outExtension": ".dts",
+			"outSufixName": ".audio",
+			"languagePos": 1,
+			"infoPos": "2,3,4",
+			"params": "-core"
+		},
+		"Subtitle (PGS)": {
+			"outExtension": ".sup",
+			"outSufixName": ".subtittle",
+			"languagePos": 1
+		}
+	}
+}
